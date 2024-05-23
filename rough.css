@@ -1,0 +1,19 @@
+.container{
+    width: 200px;
+}
+
+.container .container-content {
+    cursor: pointer;
+}
+
+.container .container-content:hover img{
+    filter: brightness(50%);
+}
+
+.container .container-content:hover h1{
+    text-decoration: underline;
+}
+
+.container .container-content img{
+    width: 100%;
+}
